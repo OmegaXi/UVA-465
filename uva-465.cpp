@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstring>
-#include<stdlib.h>
+#include<cstdlib>
 #define n 800
 #define nn 2147483647
 using namespace std;
@@ -12,8 +12,8 @@ main()
 	double a;
 	while(cin>>s1>>ch>>s2)
 	{
-		cout<<s1<<ch<<s2;
-		if(atof(s1))>nn)
+		cout<<s1<<ch<<s2<<endl;
+		if(atof(s1)>nn)
 			cout<<"first number too big"<<endl;
 		if(atof(s2)>nn)
 			cout<<"second number too big"<<endl;
