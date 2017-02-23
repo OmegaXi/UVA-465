@@ -12,7 +12,7 @@ main()
 	double a;
 	while(cin>>s1>>ch>>s2)
 	{
-		cout<<s1<<ch<<s2<<endl;
+		cout<<s1<<" "<<ch<<" "<<s2<<endl;
 		if(atof(s1)>nn)
 			cout<<"first number too big"<<endl;
 		if(atof(s2)>nn)
